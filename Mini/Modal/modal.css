@@ -1,0 +1,80 @@
+body{
+    overflow: hidden;
+    background: radial-gradient(rgb(171, 222, 243),#bbb1b1);
+    background: url(hero.jpeg) center/cover no-repeat;
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .hero{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .banner{
+    width: 370px;
+    margin: auto;
+    border-radius: 2px;
+    background: radial-gradient(rgb(171, 222, 243),#bbb1b1);
+    padding: 20px 20px 70px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  h1{
+    text-align: center;
+  }
+  .btn{
+    margin-left: 36%;
+    background-color: rgb(66, 158, 243);
+    padding: 2px 4px;
+    border-radius: 5px;
+  }
+  .btn:hover{
+    background-color: rgb(170, 128, 142);
+    transition: 0.5s;
+  }
+  .modal-overlay{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(73, 166, 233, 0.5);
+    font-size: 20px;
+    place-items: center;
+    font-weight: bold;
+    visibility: hidden;
+    z-index: -10;
+  }
+  .modal-container{
+    width: 370px;
+    margin: auto;
+    border-radius: 2px;
+    background: radial-gradient(rgb(247, 231, 141),#bbb1b1);
+    padding: 20px 20px 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  }
+  h2{
+    text-align: center;
+  }
+  .close-btn{
+    float: right;
+    display: flex;
+  }
+  .close-btn:hover{
+    color: white;
+    background-color: black;
+  }
+  .open-modal {
+    visibility: visible;
+    z-index: 10;
+  }
